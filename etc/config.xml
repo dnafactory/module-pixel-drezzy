@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/config.xsd">
+    <default>
+        <dna_drezzy>
+            <order_pixel>
+                <enabled>1</enabled>
+            </order_pixel>
+        </dna_drezzy>
+    </default>
+</config>

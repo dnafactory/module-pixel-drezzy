@@ -1,0 +1,40 @@
+{
+    "name": "dnafactory/module-pixel-drezzy",
+    "description": "A simple module to add Drezzy's Pixel to Magento 2 checkout",
+    "keywords": [
+    "magento 2",
+    "drezzy",
+    "pixel"
+    ],
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "homepage": "https://dnafactory.it/",
+    "authors": [
+        {
+            "name": "DNAFactory",
+            "email": "info@dnafactory.it",
+            "homepage": "https://www.dnafactory.it",
+            "role": "Owner"
+        },
+        {
+            "name": "Ciro Arcadio",
+            "email": "ciro.arcadio@dnafactory.it",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.1",
+        "magento/framework": "*",
+        "dnafactory/core": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DNAFactory\\PixelDrezzy\\": ""
+        }
+    }
+}
